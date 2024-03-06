@@ -26,13 +26,7 @@ body {
 .header-container {
     display: flex;
     justify-content: space-between;
-    margin-top: 12px;;
-}
-
-.header-links {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    margin-top: 12px;
 }
 
 .hero-container {
@@ -54,7 +48,6 @@ body {
     flex: 1;
     gap: 8px;
     justify-content: center;
-    
 }
 
 .hero-image {
@@ -99,7 +92,11 @@ body {
     color: white;
     padding: 4px 12px;
     border-radius: 8px;
+}
 
+.image-caption {
+    color: white;
+    text-align: right;
 }
 
 .info-header {
