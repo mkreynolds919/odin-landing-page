@@ -91,6 +91,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #E5E7EB;
+    padding: 150px 400px;
 }
 
 .logo {
@@ -108,7 +109,6 @@ body {
 .hero-content .sub {
     font-size: 18px;
     color: #E5E7EB;
-    text-align: right;
 }
 
 .notify-button {
@@ -132,11 +132,13 @@ body {
 .quote .main {
     font-size: 36px;
     color: #1F2937;
+    margin-bottom: 20px;
 }
 
 .quote .sub {
     font-weight: bold;
     font-size: 24px;
+    text-align: right;
 }
 
 button img {
