@@ -196,6 +196,12 @@ a img {
     height: 24px;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+}
 
 ul {
     display: flex;
@@ -204,6 +210,7 @@ ul {
     padding: 0;
     gap: 20px;
 }
+
 
 .header-links a {
     text-decoration: none;
