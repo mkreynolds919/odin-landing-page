@@ -141,9 +141,47 @@ body {
     text-align: right;
 }
 
+.socials-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 75px;
+}
+
+.socials-container .child {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 85px;
+    border-radius: 5px;
+    gap: 125px;
+}
+
+.text-container {
+    color: white;
+}
+
+.text-container .main {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.text-container .sub  {
+    font-size: 14px;
+}
+
+.button-container {
+    display: flex;
+}
+
+.button-container button {
+    margin: 0;
+    background-color: #3882f6;
+    border: none;
+}
+
 button img {
     width: 24px;
-    height: auto;
+    height: 24px;
 }
 
 ul {
