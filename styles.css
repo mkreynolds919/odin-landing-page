@@ -58,17 +58,36 @@ body {
 
 .info-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 50px;
+    gap: 50px;
 }
 
+.info img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 8px;
+    border-radius: 25px;
+    outline: 2px solid #3882f6;
+}
 
+.images-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.info .text {
+    text-align: center;
+    width: 200px;
+    height: auto;
+}
 
 .quote-container {
     background-color: #E5E7EB;
 }
-
-
 
 .logo {
     font-size: 24px;
