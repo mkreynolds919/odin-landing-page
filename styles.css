@@ -1,3 +1,11 @@
+@font-face {
+    font-family: "HarryPotter";
+    src: url(./fantastic-beasts.otf);
+}
+
+
+
+
 body {
     font-family: "Roboto", sans-serif;
     display: flex;
@@ -87,15 +95,14 @@ body {
 
 .hp-container {
     display: flex;
-    outline: 4px solid darkgoldenrod;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 0;
+    padding: 0;
 }
 
 .house-container,
 .quiz-container {
     flex: 1;
     outline: 2px solid darkgoldenrod;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -123,6 +130,15 @@ body {
 .house-container img {
     width: 200px;
     height: 200px;
+}
+
+.quiz-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.quiz-container .text {
+    font-family: "HarryPotter";
 }
 
 .quote-container {
