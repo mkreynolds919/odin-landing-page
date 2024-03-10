@@ -99,8 +99,7 @@ body {
     padding: 0;
 }
 
-.house-container,
-.quiz-container {
+.house-container {
     flex: 1;
     outline: 2px solid darkgoldenrod;
     display: flex;
@@ -134,11 +133,27 @@ body {
 
 .quiz-container {
     display: flex;
+    background-color: gray;
+    outline: 2px solid darkgoldenrod;
     flex-direction: column;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 56px;
+    gap: 20px;
+    
 }
 
 .quiz-container .text {
     font-family: "HarryPotter";
+    height: auto;
+    text-align: center;
+    margin: 0;
+}
+
+.quiz-container img {
+    width: 100px;
+    height: 100px;
 }
 
 .quote-container {
