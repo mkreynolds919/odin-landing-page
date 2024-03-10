@@ -3,7 +3,7 @@
     src: url(./fantastic-beasts.otf);
 }
 
-body {
+body.index {
     font-family: "Roboto", sans-serif;
     display: flex;
     flex-direction: column;
@@ -287,5 +287,70 @@ ul {
     font-size: 18px;
 }
 
+.sorting {
+    display: flex;
+    font-family: "HarryPotter";
+    margin: 0;
+    padding: 0;
+}
+
+
+.sorting img {
+    width: 250px;
+    height: auto;
+}
+
+.banner {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(71, 9, 9);
+    height:100vh;
+}
+
+.questions-container {
+    flex: 4;
+    background-color: silver;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    
+}
+
+.quiz-header {
+    font-size: 24px;
+    text-align: center;
+}
+
+.questions {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.q {
+    margin: 42px;
+}
+
+.sorting ul {
+    display: flex;
+    flex-direction: column;
+    margin: 24px;
+}
+
+.submit-container {
+    background-color: goldenrod;
+    padding: 8px;
+    outline: 2px solid black;
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    
+}
+
+a {
+    text-decoration: none;
+}
 
 
